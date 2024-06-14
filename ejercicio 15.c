@@ -1,7 +1,7 @@
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main()
-    {
+int main()
+{
     float lado1,lado2,super,per;
     printf("Bienvenido, ingrese el valor del primer lado del rectangulo:");
     scanf("%f",&lado1);
@@ -13,4 +13,4 @@
     printf("El valor de la superficie del rectangulo es:%f",super);
     getchar();
     getchar();
-    }
+}

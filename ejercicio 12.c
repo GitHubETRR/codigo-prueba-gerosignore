@@ -1,7 +1,7 @@
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main()
-    {
+int main()
+{
     float EDAD,EDADdias;
     printf("Bienvenido, ingrese cuantos anios vividos lleva:");
     scanf("%f",&EDAD);
@@ -10,4 +10,4 @@
     printf(" dias vividos");
     getchar();
     getchar();
-    }
+}

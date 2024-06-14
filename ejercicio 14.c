@@ -1,7 +1,7 @@
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main()
-    {
+int main()
+{
     float ang1,ang2,ang3;
     printf("Bienvenido ingrese el valor del primer angulo del traingulo:");
     scanf("%f",&ang1);
@@ -11,5 +11,5 @@
     printf("El valor del tercer angulo del triangulo %f grados",ang3);
     getchar();
     getchar();
-    }   
+}   
 
