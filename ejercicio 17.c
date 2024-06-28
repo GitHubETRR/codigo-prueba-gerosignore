@@ -3,18 +3,10 @@
 int main()
 {
     unsigned int hora1, hora2, hora_suma, minuto1, minuto2, minuto_suma, segundo1, segundo2, segundo_suma;
-    printf("Bienvenido, ingrese las horas de su primer tiempo:");
-    scanf("%d",&hora1);
-    printf("Ingrese los minutos de su primer tiempo:");
-    scanf("%d",&minuto1);
-    printf("Ingrese los segundos de su primer tiempo:");
-    scanf("%d",&segundo1);
-    printf("Ingrese las horas de su segundo tiempo:");
-    scanf("%d",&hora2);
-    printf("Ingrese los minutos de su segundo tiempo:");
-    scanf("%d",&minuto2);
-    printf("Ingrese los segundos de su segundo tiempo:");
-    scanf("%d",&segundo2);
+    printf("Bienvenido, ingrese su primer tiempo en formato HH MM SS:");
+    scanf("%d %d %d",&hora1,&minuto1,&segundo1);
+    printf("Ingrese su segundo tiempo en formato HH MM SS:");
+    scanf("%d %d %d",&hora2,&minuto2,&segundo2);
     hora_suma=hora1+hora2;
     minuto_suma=minuto1+minuto2;
     segundo_suma=segundo1+segundo2;
