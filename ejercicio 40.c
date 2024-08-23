@@ -1,4 +1,19 @@
 #include <stdio.h>
+enum {
+    ENERO=1,
+    FEBRERO,
+    MARZO,
+    ABRIL,
+    MAYO,
+    JUNIO,
+    JULIO,
+    AGOSTO,
+    SIEPTIEMBRE,
+    OCTUBRE,
+    NOVIEMBRE,
+    DICIEMBRE
+};
+
 
 int main()
 {
@@ -6,19 +21,19 @@ int main()
     
     printf("Bienvenido, ingrese su fecha de nacimineto en formato DD MM AAAA:");
     scanf("%d %d %d",&dia,&mes,&anio);
-    if(mes==1)
+    if(mes==ENERO)
     {
         printf("La persona nacio el %d de enero de %d",dia,anio);
     }
-    if(mes==2)
+    if(mes==FEBRERO)
     {
         printf("La persona nacio el %d de febrero de %d",dia,anio);
     }
-    if(mes==3)
+    if(mes==MARZO)
     {
         printf("La persona nacio el %d de marzo de %d",dia,anio);
     }
-    if(mes==4)
+    if(mes==ABRIL)
     {
         printf("La persona nacio el %d de abril de %d",dia,anio);
     }
