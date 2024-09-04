@@ -2,7 +2,8 @@
 
 int getMayorDeDos(void);
 
-int main(){
+int main()
+{
    int res;
    res=mayorDeDos();
    printf("el mayor es: %d", res);
@@ -21,4 +22,6 @@ int getMayorDeDos(void){
         mayor=num2;
     }
     return mayor;
+getchar();
+getchar();
 }
